@@ -4,7 +4,7 @@ echo "Please choose what you want to do"
 
 choice="Encrypt Decrypt"
 
-select option in $choice; d1
+select option in $choice; do
       if [ $REPLY = 1];
 then
       echo "You have selected encryption"
